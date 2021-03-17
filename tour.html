@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W3.CSS Template</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html"    class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="band.html"     class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+            <a href="tour.html"     class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+            <a href="contact.html"  class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">อัปเดต สาวมอนเตอร์</h2>
+      <p class="w3-opacity w3-center"><i>สาวมอนเตอร์ตนใหม่ คือ!!!<!DOCTYPE html></i></p><br>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/images/dragon zombie.jpg" alt="dragon zombie" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>ผู้ปกครองโลกกลับไม่ตาย เนื่องจากความเย่อหยิ่งของพวกมันมังกรจึงมองมนุษย์มนุษย์ว่าไม่มีค่าควรและไม่มีจำนวนน้อยที่จะใช้ชีวิตไปตลอดชีวิตโดยที่ไม่เคยมีเพศสัมพันธ์กับผู้ชายมาก่อน</b></p>
+            <p class="w3-opacity">01 October 2020</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">READ</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/images/golem.jpg" alt="golem" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>โกเลมเป็นมอนสเตอร์สาวที่สร้างขึ้นโดยประดิษฐ์ขึ้นโดยกำเนิดเมื่อตุ๊กตาดินเผาเคลื่อนไหวด้วยพลังเวทย์มนตร์และพลังปีศาจและตั้งโปรแกรมโดยอักษรรูนที่จารึกไว้ แม้ว่ามันอาจจะดูแปลกที่มอนสเตอร์จะสร้างคู่แข่งขึ้นมาเพื่อความเสน่หาของผู้ชาย แต่โกเลมเหล่านี้ก็ทำหน้าที่เฉพาะ เนื่องจากสัตว์ประหลาดบางตัวไม่สามารถหาสามีเพื่อให้พวกมันมีพลังวิญญาณมาเลี้ยงได้โกเลมเหล่านี้จึงถูกสร้างขึ้นเพื่อ "รีดนม" มนุษย์และนำพลังวิญญาณนั้นกลับไปหาเจ้าของ</b></p>
+            <p class="w3-opacity">08 May 2020</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">READ</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/images/jiangshi.jpg" alt="jiangshi" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>อมนุษย์ชนิดหนึ่งที่มีลักษณะเฉพาะของทวีปหมอก เมื่อพลังงานปีศาจที่แปลกประหลาดที่ปกคลุมทวีปหมอกเข้ามาอาศัยอยู่ในซากศพมันจะถูกยกขึ้นเป็นเจียงซี สำหรับอันเด ธ ร่างกายของพวกเขาอยู่ในสภาพดีมาก ไม่มีการสลายตัวพวกมันแข็งแกร่งและมีความแข็งแกร่งเหนือมนุษย์ มีแม้กระทั่งบางคนที่เก่งในศิลปะการต่อสู้ อย่างไรก็ตามเนื่องจากความรุนแรงร่างกายของพวกเขาจึงแข็งและโดยปกติพวกเขาจะเคลื่อนไหวโดยยืดแขนและขาออกและกระโดด
+                  สติปัญญาของพวกเขาสูงมากจนมีบางคนที่สามารถใช้เวทมนตร์ได้และไม่เหมือนกับซอมบี้พฤติกรรมของพวกเขาดูเหมือนจะไม่ได้รับแรงกระตุ้น แม้ว่าในสภาพของความอดอยากพวกเขาก็กลายเป็นแบบนั้นการทำร้ายมนุษย์อย่างดุร้ายและอุกอาจอย่างรุนแรงโดยใช้พละกำลังเหนือมนุษย์จับเหยื่อของพวกเขาลงและฝ่าฝืนพวกเขา นอกจากนี้เล็บของพวกเขายังมีสารพิษที่สามารถกระตุ้นให้เกิดการตายชั่วคราวในสตรีมนุษย์และทำให้พวกเขาเปลี่ยนเป็นเจียงซือ</b></p>
+            <p class="w3-opacity">December 13 2020</p>           
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">READ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">จัดทำโดย slugblood</a></p>
+    </footer>
+</body>
+</html>
